@@ -1,0 +1,2051 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  /*.wrapper{
+      width: 1170px;
+      margin: auto;
+      
+  }*/
+  html {
+      overflow-x: hidden;
+      background-color: rgb(218, 216, 216);
+  }
+  nav{
+      color: rgb(44, 44, 44);
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  nav .nav-area{
+      display: flex;
+      list-style: none;
+  }
+  nav .nav-area li a{
+      display: inline-block;
+      padding: 15px;
+      text-decoration: none;
+      color: rgb(44, 44, 44);
+      font-size: 20px;
+      font-family: 'Poppins',sans-serif;
+  }
+  
+  
+  
+  
+ /* .nav-area {
+      
+      float: right;
+      margin-right: -120px;
+      list-style: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top:10px ;
+      padding-bottom: 10px;
+  }
+  .nav-area li{
+      display: inline-block;
+  }
+  */
+  .ho:after{
+      content: "";
+      position: absolute;
+      background-color: rgb(44, 44, 44);
+      height: 2px;
+      width: 0;
+      margin-top: 30px;
+      margin-left: -65px;
+      transition: 0.3s;
+  }
+  .ho:hover:after{
+      width: 65px;
+  }
+  .in:after{
+  content: "";
+  position: absolute;
+  background-color: rgb(44, 44, 44);
+  height: 2px;
+  width: 0;
+  margin-top: 30px;
+  margin-left: -110px;
+  transition:0.3s
+  }
+  .in:hover:after{
+      width: 110px;
+  }
+  .li:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0;
+    margin-top: 30px;
+    margin-left: -50px;
+    transition: 0.3s;
+    }
+    .li:hover:after{
+        width:50px;
+    }
+    .cl:after{
+        content: "";
+        position: absolute;
+        background-color: rgb(44, 44, 44);
+        height: 2px;
+        width: 0;
+        margin-top: 30px;
+        margin-left: -50px;
+        transition: 0.5s;
+        }
+        .cl:hover:after{
+            width:50px;
+        }
+    .sh:after{
+            content: "";
+            position: absolute;
+            background-color: rgb(44, 44, 44);
+            height: 2px;
+            width: 0;
+            margin-top: 30px;
+            margin-left: -50px;
+            transition: 0.3s;
+            }
+    .sh:hover:after{
+        width:50px ;
+    }
+    h3{
+        font-size: 25px;
+        font-family: 'Optima',sans-serif;
+        letter-spacing: 3px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    nav .openMenu{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: none;
+        cursor: pointer;
+
+    }
+    nav .nav-area .closeMenu{
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+    /*
+  .nav-area li a {
+      text-decoration: none;
+      padding: 5px 20px;
+      color: rgb(44, 44, 44);
+      font-family: sans-serif;
+      font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .nav-area li a:hover {
+      background-color: rgb(218, 216, 216);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 28px;
+      color: rgb(44, 44, 44);
+  }
+  h3 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 25px;
+      padding-left: 20px;
+      font-family: 'Optima', sans-serif ;
+      color: rgb(44, 44, 44);
+      letter-spacing: 3px;
+  }
+  */
+  .right{
+      margin-top: 50px;
+      font-size: 10px;
+      margin-bottom: 5px;
+  }
+  .copy{
+      font-size: 10px;
+      margin-top: 200px;
+      text-align: center;
+      margin-bottom: 5px;
+  }
+  .copyri{
+      font-size: 10px;
+      text-align: center;
+      margin-top: 330px;
+      margin-bottom: 5px;
+  }
+  .rightcop{
+      
+    margin-top: 100px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-left: 540px;
+  }
+ .drivqcm{
+     display: inline-block;
+     text-align: center;
+     font-family: 'Poppins',sans-serif;
+     font-size: 25px;
+     margin-top: 70px;
+     margin-left: 430px;
+ }
+ .drivqcm a {
+     text-decoration: none;
+     padding-right: 70px;
+     color: rgb(44, 44, 44);
+ }
+ .line {
+     height: 20px;
+     height: 10px;
+     margin-top: 10px;
+     color: rgb(44, 44, 44);
+ }
+ .images{
+     display: inline-block;
+     margin-left: 325px;
+     margin-top: 100px;
+ }
+ img {
+     height: 200px;
+     width: 200px;
+     margin-right: 60px;
+ }
+.dri:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0px;
+    margin-top: 40px;
+    margin-left: -70px;
+    transition: 0.3s;
+    
+}
+
+.qcm:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0;
+    margin-top: 40px;
+    margin-left: -55px;
+    transition: 0.3s;
+    
+}
+.dri:hover:after{
+    width: 75px;
+}
+.qcm:hover:after{
+    width: 60px;
+}
+p {
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-family: system-ui;
+    margin-top: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight :15px;
+    letter-spacing: 0.7px;
+}
+p:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -350px;
+}
+.livre:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0px;
+    margin-top: 40px;
+    margin-left: -70px;
+    transition: 0.3s;
+}
+.livre:hover:after{
+    width: 80px;
+}
+.video:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0px;
+    margin-top: 40px;
+    margin-left: -70px;
+    transition: 0.3s;
+}
+.video:hover:after{
+    width: 80px;
+}
+
+.departement{
+    display: block;
+    margin-top:150px;
+    margin-left: 300px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+}
+.departement a {
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    
+
+}
+.dep2{
+    margin-left: 500px;
+    margin-top: -117px;
+
+
+
+
+}
+.dep21{
+    margin-top: -60px;
+}
+.dep22{
+    
+    margin-left: 500px;
+    margin-top: -60px;
+}
+.dep24{
+    margin-left: 500px;
+    margin-top: -60px;
+}
+.promotion{
+    
+    display: block;
+    margin-left: 450px;
+    margin-right: 530px;
+    margin-top: 100px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    padding-left: 70px;
+}
+.promotionV{
+    
+    display: block;
+    margin-left: 450px;
+    margin-right: 530px;
+    margin-top: 100px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    padding-left: 70px;
+}
+.first{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.firstr{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.tlemcen{
+     background-color: rgb(44, 44, 44);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-top: 100px;
+     
+     color: white;
+     font-family: 'Poppins',sans-serif;
+     font-size: 20px;
+     text-decoration: none;
+     padding-right: 70px;
+     padding-left: 70px;
+     
+}
+.second{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.promotionT{
+    margin-top: 100px;
+    margin-left: 450px;
+    
+}
+.firstT{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 110px;
+    padding-left: 140px;
+    
+}
+.firstA{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 65px;
+    padding-left: 30px;
+    margin-left: 25px;
+    
+}
+
+.livres {
+    display: inline-block;
+    margin-left: 100px;
+}
+.img1 {
+   height: 409px;
+   width: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.img2{
+   height: 409px;
+   width: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+
+}
+.img3{
+   height: 409px;
+   width: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.img4{
+   height: 409px;
+   width: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(44, 44, 44);
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+.firstqcm{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 47px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.gal{
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 27px;
+    padding-left: 30px;
+   
+}
+.gale{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 27px;
+    padding-left: 30px;
+    
+}
+.biologie{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 23px;
+}
+.vegetale{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.vegetale1{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.biomath{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+.biomathe{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+.pharmaco{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+.pharmaco1{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+.anal{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+    padding-left: 40px;
+}
+.troisieme{
+         margin-top: 100px;
+         margin-left: 550px;
+}
+.troisiemegal{
+    
+        margin-top: 100px;
+        margin-left: 510px;
+}
+
+.anat{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.immuno{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.bio{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.micro{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 23px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.epidem{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.gest{
+    
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 85px;
+    margin-left: 25px;
+}
+.cyto{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.histo{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 30px;
+}
+.embryo{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+.three{
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.hydro{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.toxico{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.gene{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 65px;
+    padding-left: 55px;
+    margin-left: 25px;
+}
+.min{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.biochimie{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 67px;
+    padding-left: 67px;
+    margin-left: 25px;
+}
+
+.biophysique{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 25px;
+}
+.bot{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.pharma{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 2px;
+    padding-right: 3px;
+
+}
+.pharmacie{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.epidemio{
+
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.epidemio1{
+
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-left: 25px;
+}
+.hydrobro{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-left: 15px;
+}
+.toxicologie{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.pre{
+    
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.generale{
+    
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.co{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+ .cov{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    margin-left:30px ;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 10px;
+    
+}
+.co:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: -310px;
+    
+}
+.cg{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.cg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: -290px;
+}
+.pg{
+    
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.pg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 210px;
+    margin-top: 40px;
+    margin-left: -220px;
+}
+.bv{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bv:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: -320px;
+}
+.biocell{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.biocell:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 330px;
+    margin-top: 40px;
+    margin-left: -350px;
+}
+.informatique{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.informatique:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 225px;
+    margin-top: 40px;
+    margin-left: -240px;
+   
+}
+.bch{
+    
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bch:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 160px;
+    margin-top: 40px;
+    margin-left: -170px;
+}
+.pp{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.pp:after{
+
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: -320px;
+}
+.gn{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.gn:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 175px;
+    margin-top: 40px;
+    margin-left: -190px;
+}
+.an{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.an:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 310px;
+    margin-top: 40px;
+    margin-left: -330px;
+}
+.ana{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ana:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 310px;
+    margin-top: 40px;
+    margin-left: -330px;
+}
+.ct{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ph{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ct:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 360px;
+    margin-top: 40px;
+    margin-left: -380px;
+}
+.ph:after{
+
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 260px;
+    margin-top: 40px;
+    margin-left: -280px;
+}
+.pc{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.pc:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 330px;
+    margin-top: 40px;
+    margin-left: -345px;
+}
+.im{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.im:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: -235px;
+}
+.hb{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.hb:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 235px;
+    margin-top: 40px;
+    margin-left: -250px;
+}
+.biostat{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.biostat:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 240px;
+    margin-top: 40px;
+    margin-left: -260px;
+}
+.mg{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.mg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 245px;
+    margin-top: 40px;
+    margin-left: -260px;
+}
+.ep{
+    
+    font-family: 'Poppins', sans-serif;
+    color: rgb(44, 44, 44);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ep:after{
+
+    content: "";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 240px;
+    margin-top: 40px;
+    margin-left: -250px;
+}
+
+.right{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+.trait{
+    
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-family: system-ui;
+    margin-top: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight :15px;
+    letter-spacing: 0.7px;
+}
+
+.trait:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -350px;
+}
+.residanat{
+    
+    display: block;
+    margin-left: 515px;
+    margin-right: 530px;
+    margin-top: 100px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    padding-left: 70px;
+}
+.drir{
+
+    text-decoration: none;
+    padding-right: 70px;
+    color: rgb(44, 44, 44);
+    margin-left: 140px;
+}
+.drir:after{
+    
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0px;
+    margin-top: 40px;
+    margin-left: -70px;
+    transition: 0.3s;
+}
+.drir:hover:after{
+    width: 70px;
+}
+.livrer:after{
+    
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 0px;
+    margin-top: 40px;
+    margin-left: -65px;
+    transition: 0.3s;
+}
+.livrer:hover:after{
+    width: 70px;
+}
+.res{
+    
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-family: system-ui;
+    margin-top: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight :15px;
+    letter-spacing: 0.7px;
+}
+.res:after{
+    
+
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -280px;
+
+}
+.traitr{
+    
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-family: system-ui;
+    margin-top: 100px;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight :15px;
+    letter-spacing: 0.7px;
+}
+.traitr:after{
+    
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -280px;
+}
+label #btn,
+label #cancel{
+    float: right;
+    font-size: 20px;
+    line-height: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.loading{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    color:rgb(44, 44, 44);
+    margin-top: 250px;
+    letter-spacing: 5px;
+    animation: animate 20s;
+    
+}
+@keyframes animate{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .loading{
+        font-size: 20px;
+        margin-right: -20px;
+        animation: animate 5s
+    }
+    nav .nav-area{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(44, 44, 44);
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .nav-area .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: rgb(218, 216, 216);
+    }
+    nav .openMenu{
+         display: block;
+    }
+    nav .nav-area li a{
+        color: rgb(218, 216, 216);
+        margin: 20px 0;
+    }
+    
+    .ho:after{
+        content: "";
+        position: absolute;
+        background-color: rgb(218, 216, 216);
+        height: 2px;
+        width: 0;
+        margin-top: 30px;
+        margin-left: -65px;
+        transition: 0.3s;
+    }
+    .in:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(218, 216, 216);
+    height: 2px;
+    width: 0;
+    margin-top: 30px;
+    margin-left: -110px;
+    transition:0.3s
+    }
+    .li:after{
+      content: "";
+      position: absolute;
+      background-color: rgb(218, 216, 216);
+      height: 2px;
+      width: 0;
+      margin-top: 30px;
+      margin-left: -50px;
+      transition: 0.3s;
+      }
+      .cl:after{
+          content: "";
+          position: absolute;
+          background-color: rgb(218, 216, 216);
+          height: 2px;
+          width: 0;
+          margin-top: 30px;
+          margin-left: -50px;
+          transition: 0.5s;
+          }
+      .sh:after{
+              content: "";
+              position: absolute;
+              background-color: rgb(218, 216, 216);
+              height: 2px;
+              width: 0;
+              margin-top: 30px;
+              margin-left: -50px;
+              transition: 0.3s;
+              }
+     
+    
+    .livres{
+        margin-left: 10px;
+        
+    }
+    .img1{
+        height: 369px;
+        width: 260px;
+        margin-left: 5px;
+    }
+    .img2{
+        height: 369px;
+        width: 260px;
+        margin-left: 5px;
+    }
+    .img3{
+        height: 369px;
+        width: 260px;
+        margin-left: 5px;
+    }
+    .img4{
+        height: 369px;
+        width: 260px;
+        margin-left: 5px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 25px;
+    
+    }
+    .drivqcm a{
+        display: block;
+       margin-left: -500px;
+       line-height: 50px;
+    }
+    .images{
+        margin-left: 40px;
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+    p:after{
+        margin-left: -170px;
+    }
+    .res:after{
+        margin-left: -170px;
+    }
+    .livre:hover:after{
+        width: 70px;
+    }
+    .video:hover:after{
+        width: 70px;
+    }
+    .departement{
+        margin-left: 5px;
+    }
+    .dep2{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 40px;
+
+    }
+    .dep22{
+        margin-top: 0px;
+        margin-left: 0;
+        
+    }
+    .dep24{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .trait:after{
+        margin-left: -170px;
+    }
+    .traitr:after{
+        margin-left: -170px;
+    }
+    .residanat{
+        margin-left: 35px;
+        margin-right: 0;
+    }
+    .troisieme{
+        margin-left: 30px;
+    }
+    .troisiemegal{
+        margin-left: 25px;
+        
+    }
+    .promotion{
+        margin-left: -50px;
+        margin-right: 0;
+    }
+    .promotionV{
+        margin-left: -50px;
+        margin-right: 0;
+        
+    }
+    .promotionT{
+        margin-left:10px;
+    }
+    .firstT{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .firstB{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 10px;
+    }
+    
+    .tlemcen{
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .cov{
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+    .pre{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .generale{
+        padding-right: 22px;
+        padding-left: 22px;
+    
+    }
+    .biologie{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .anat{
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+    .biomath{
+        padding-right: 20px;
+        padding-left: 10px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .biomathe{
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    .vegetale{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cyto{
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+    .embryo{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .histo{
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+    .vegetale1{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .an:after{
+        margin-left: -250px;
+        width: 250px;
+    }
+    .pp{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 5px;
+    }
+    .pp:after{
+        margin-left: -260px;
+        width: 260px;
+
+    }
+    .an{
+        font-size: 23px;
+        margin-bottom: 35px;
+        margin-left: 5px;
+    }
+    .bch{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .bch:after{
+        margin-left: -145px;
+        width: 150px;
+    }
+    .gn{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .gn:after{
+        margin-left: -160px;
+        width: 150px;
+    }
+    .co{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .co:after{
+        margin-left: -260px;
+        width: 260px;
+    }
+    
+    .cg{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .cg:after{
+        margin-left: -240px;
+        width: 240px;
+    }
+    
+    .pg{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .pg:after{
+        margin-left: -180px;
+        width: 180px;
+    }
+    
+    .bv{
+        font-size: 23px;
+        margin-bottom: 35px;
+        margin-left: 1px;
+    }
+    .bv:after{
+        margin-left: -270px;
+        width: 260px;
+    }
+    
+    .biocell{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .biocell:after{
+        margin-left: -290px;
+        width: 280px;
+    }
+    
+    .informatique{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .informatique:after{
+        margin-left: -200px;
+        width: 200px;
+    }
+    
+    .biostat{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .biostat:after{
+        margin-left: -220px;
+        width: 220px;
+    }
+    .dep1 a {
+        margin-bottom: 10px;
+    }
+    .pharmaco{
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-left: -10px;
+    }
+    .anal{
+        padding-left: 20px;
+        padding-right: 25px;
+        margin-left: -10px;
+       
+    }
+    .three{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: -10px;
+    }
+    .gal{
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-left: -10px;
+    }
+    .pharmaco1{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .gale{
+        padding-right: 2px;
+        padding-left: 2px;
+        margin-left: -7px;
+        font-size: 17px;
+    }
+   
+    .ana{
+        font-size: 22px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .ana:after{
+        margin-left: -250px;
+        width: 240px;
+    }
+    
+    .ph{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .ph:after{
+        margin-left: -230px;
+        width: 220px;
+    }
+    
+    .ct{
+        font-size: 25px;
+        margin-bottom: 35px;
+        margin-left: 2px;
+    }
+    .ct:after{
+        margin-left: -220px;
+        width: 220px;
+    }
+    .firstqcm{
+        padding-left: 5px;
+        padding-right: 15px;
+        margin-left: 10px;
+    }
+    .first{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 10px;
+    }
+    
+    .immuno{
+        padding-left: 5px;
+        padding-right: 14px;
+        margin-left: 10px;
+    }
+    
+    .micro{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 10px;
+    }
+    
+    .bio{
+        padding-left: 5px;
+        padding-right: 60px;
+        margin-left: 10px;
+    }
+    
+    .im{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .im:after{
+        margin-left: -200px;
+        width: 200px;
+    }
+    
+    .hb{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .hb:after{
+        margin-left: -210px;
+        width: 200px;
+    }
+    
+    .mg{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .mg:after{
+        margin-left: -220px;
+        width: 220px;
+    }
+    .epidem{
+        margin-left: 2px;
+        padding-right: 40px;
+    }
+    .pharmacie{
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-left: 2px;
+    }
+    .hydro{
+        padding-right: 30px;
+        padding-left: 20px;
+        margin-left: 2px;
+    }
+    .pharma{
+        margin-left: 2px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+        font-size: 15px;
+   
+    }
+    .toxico{
+        padding-right: 45px;
+        padding-left: 45px;
+        margin-left: 2px;
+    }
+    
+    .gest{
+        padding-right: 70px;
+        padding-left: 70px;
+        margin-left: 2px;
+    }
+    .epidemio1{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .hydrobro{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .toxicologie{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .pc{
+        font-size: 22px;
+        margin-bottom: 35px;
+        margin-left: 5px;
+    }
+    .pc:after{
+        margin-left: -250px;
+        width: 240px;
+    }
+    .ep{
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+    .ep:after{
+        margin-left: -210px;
+        width: 200px;
+    }
+    .biochimie{
+        margin-left: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .biophysique{
+        margin-left: 5px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .gene{
+        margin-left: 5px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .min{
+        margin-left: 5px;
+        padding-right: 10px;
+        padding-left: 10px ;
+    }
+.firstA{
+    padding-left: 5px;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+.firstr{
+    margin-left: -40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+}
