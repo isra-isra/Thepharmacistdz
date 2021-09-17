@@ -1495,6 +1495,7 @@ label #cancel{
         background: rgb(44, 44, 44);
         transition: top 1s ease;
         display: none;
+        
     }
     nav .nav-area .closeMenu{
         display: block;
@@ -1596,11 +1597,11 @@ label #cancel{
     }
     .drivqcm a{
         display: block;
-       margin-left: -500px;
+       margin-left: -480px;
        line-height: 50px;
     }
     .images{
-        margin-left: 40px;
+        margin-left: 60px;
         margin-top: -10px;
         margin-bottom: 50px;
     }
