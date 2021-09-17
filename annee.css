@@ -1597,11 +1597,11 @@ label #cancel{
     }
     .drivqcm a{
         display: block;
-       margin-left: -480px;
+       margin-left: -440px;
        line-height: 50px;
     }
     .images{
-        margin-left: 60px;
+        margin-left: 80px;
         margin-top: -10px;
         margin-bottom: 50px;
     }
