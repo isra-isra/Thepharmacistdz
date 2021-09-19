@@ -1565,7 +1565,7 @@ label #cancel{
      
     
     .livres{
-        margin-left: 10px;
+        margin-left: 40px;
         
     }
     .img1{
@@ -1698,8 +1698,8 @@ label #cancel{
         padding-left: 5px;
     }
     .anat{
-        padding-right: 60px;
-        padding-left: 60px;
+        padding-right: 55px;
+        padding-left: 55px;
     }
     .biomath{
         padding-right: 20px;
@@ -1857,8 +1857,8 @@ label #cancel{
         margin-left: -10px;
     }
     .gal{
-        padding-left: 2px;
-        padding-right: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
         margin-left: -10px;
     }
     .pharmaco1{
@@ -2021,8 +2021,8 @@ label #cancel{
     }
     .biochimie{
         margin-left: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
     .biophysique{
         margin-left: 5px;
