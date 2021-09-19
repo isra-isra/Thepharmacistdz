@@ -359,12 +359,12 @@ select {
 .paragraphe{
    
     width:250px;
-    height: 500px;
+    height: 400px;
     top: 60%;
   
 }
 .in{
-    padding-top: 20px;
+    padding-top: 15px;
     font-size: 13px;
 }
 .graphe{
@@ -387,6 +387,6 @@ footer a{
     font-size: 15px;
 }
 .copyinfo{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 }
