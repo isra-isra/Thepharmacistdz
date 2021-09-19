@@ -359,12 +359,12 @@ select {
 .paragraphe{
    
     width:250px;
-    height: 600px;
+    height: 500px;
     top: 60%;
   
 }
 .in{
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 13px;
 }
 .graphe{
