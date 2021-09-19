@@ -369,6 +369,7 @@ select {
 .list{
     font-size: 15px;
     padding-left: 70px;
+    padding-bottom: 50px;
 }
 label #btn{
     color: white;
