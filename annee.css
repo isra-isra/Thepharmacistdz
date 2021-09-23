@@ -1597,11 +1597,11 @@ label #cancel{
     }
     .drivqcm a{
         display: block;
-       margin-left: -440px;
+       margin-left: -410px;
        line-height: 50px;
     }
     .images{
-        margin-left: 80px;
+        margin-left: 100px;
         margin-top: -10px;
         margin-bottom: 50px;
     }
@@ -1653,7 +1653,7 @@ label #cancel{
         
     }
     .promotion{
-        margin-left: 0px;
+        margin-left: 20px;
         margin-right: 0;
     }
     .promotionV{
