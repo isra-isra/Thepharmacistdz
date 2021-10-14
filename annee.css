@@ -870,6 +870,20 @@ h4 {
     padding-right: 3px;
 
 }
+
+.droit{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    background-color: rgb(44, 44, 44);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
 .pharmacie{
     
     text-decoration: none;
@@ -1993,6 +2007,14 @@ label #cancel{
         margin-left: 2px;
     }
     .pharma{
+        margin-left: 2px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 15px;
+        font-size: 15px;
+   
+    }
+    .droit{
         margin-left: 2px;
         padding-bottom: 10px;
         padding-left: 10px;
