@@ -293,6 +293,26 @@ h4 {
    
 }*/
 
+.social {
+    text-align: center;
+    color: rgb(218, 216, 216);
+    
+}
+.social a i {
+    color: rgb(218, 216, 216);
+    border: 1px solid rgb(44, 44, 44);
+    font-size: 25px;
+    padding-right: 10px;
+  
+    
+  
+}
+.social a{
+    font-family: sans-serif,'Poppins';
+    font-size: 20px;
+    color: rgb(218, 216, 216);
+    
+}
 @media only screen and (max-width: 450px) {
     nav .nav-area{
         height: 100vh;
