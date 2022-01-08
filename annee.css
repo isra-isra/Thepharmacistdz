@@ -73,6 +73,20 @@
   .in:hover:after{
       width: 110px;
   }
+  .stg:after{
+      
+  content: "";
+  position: absolute;
+  background-color: rgb(44, 44, 44);
+  height: 2px;
+  width: 0;
+  margin-top: 30px;
+  margin-left: -50px;
+  transition:0.3s
+  }
+  .stg:hover:after{
+      width: 50px;
+  }
   .li:after{
     content: "";
     position: absolute;
@@ -112,12 +126,19 @@
     .sh:hover:after{
         width:50px ;
     }
+   
     h3{
         font-size: 25px;
         font-family: 'Optima',sans-serif;
         letter-spacing: 3px;
         margin-top: 10px;
         margin-right: 10px;
+    }
+    .picintro{
+        height:50px;
+        width: 250px;
+        margin-left: 10px;
+        margin-top: 5px;
     }
     nav .openMenu{
         font-size: 25px;
@@ -1554,6 +1575,291 @@ label #cancel{
     animation: animate 20s;
     
 }
+.stage{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 100px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.stage:after{
+    content:"";
+    position: absolute;
+    background-color: rgb(44, 44, 44);
+    height: 2px;
+    width: 120px;
+    margin-top: 80px;
+    margin-left: -155px;
+}
+
+.stgdiv{
+    text-align: center;
+    
+}
+.stage2{
+margin-left: 100px;
+}
+.stage2 .stgdiv1  {
+    display: inline-block;
+    margin-left: 30px;
+   
+    margin-top: 100px;
+    
+   
+}
+.stgdiv1 img{
+    height:300px;
+    width: 300px;
+    position: relative;
+}
+.livrestg{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+   left:230px;
+   margin-top: 140px;
+   letter-spacing: 5px;
+   font-family: 'Poppins',sans-serif;
+}
+.livrestg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    margin-left: -5px;
+    transition: 0.3s;
+}
+
+
+   .stgdiv1:hover .stgimg1{
+       animation: animate2 2s;
+   }
+   .stgdiv1:hover .livrestg::after{
+       width:120px;
+   }
+   .dmndstg{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+   left:550px;
+   margin-top: 140px;
+   
+   font-family: 'Poppins',sans-serif;
+}
+.dmndstg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    
+    transition: 0.3s;
+}
+
+.stgdiv1:hover .stgimg2{
+    animation: animate2 2s;
+}
+.stgdiv1:hover .dmndstg::after{
+    width:260px;
+}
+ .nomstg{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 140px;
+   margin-top: 140px;
+   font-size: 14px;
+   font-family: 'Poppins',sans-serif;
+}
+.nomstg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    
+    transition: 0.3s;
+}
+
+.stgdiv1:hover .stgimg3{
+    animation: animate2 2s;
+}
+.stgdiv1:hover .nomstg::after{
+    width:285px;
+}
+.img1stg{
+    
+        height: 409px;
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 30px;
+    
+}
+.img2stg{
+    height: 409px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 30px;
+ 
+ }
+ .img3stg{
+    height: 409px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 30px;
+ }
+/*.stgimg1{
+    margin-top: 100px;
+    margin-left: 85px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    animation: none;
+
+}
+
+
+.stgdiv3{
+    margin-top: 100px;
+   
+    right: 480px;
+    position: absolute;
+}
+.stgdiv4{
+    margin-top: 100px;
+    
+    right: 40px;
+    position: absolute;
+}
+.stgimg2{
+    
+    height: 300px;
+    width: 300px;
+  
+   
+}
+.stgimg3{
+    height: 300px;
+    width: 300px;
+}
+
+.livrestg{
+    color: white;
+    display: inline;
+    margin-top: 0px;
+   position: absolute;
+    top: 230px;
+    left: 180px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.dmndstg{
+    
+    display: inline;
+    color: white;
+   position: absolute;
+    top: 130px;
+    left: 30px;
+    font-family: 'Poppins',sans-serif;
+    
+    text-decoration: none;
+}
+
+.nomstg{
+    display: inline;
+    color: white;
+   position: absolute;
+   top: 130px;
+   right: 100px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.stgdiv2{
+    
+    position: absolute;
+    
+}
+.dmndstg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    
+    transition: 0.3s;
+}
+
+.livrestg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    margin-left: -5px;
+    transition: 0.3s;
+}
+
+.nomstg:after{
+    
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0px;
+    margin-top: 10px;
+    
+    transition: 0.3s;
+}
+
+
+
+.stgdiv2:hover .stgimg1 {
+  animation:animate2 2s;
+}
+.stgdiv2:hover .livrestg::after{
+    width: 120px;
+}
+.stgdiv2:hover .stgimg2{
+    animation: animate2 2s;
+}
+.stgdiv3:hover .stgimg2{
+    animation: animate2 2s;
+}
+.stgdiv3:hover .dmndstg::after{
+    width: 260px;
+}
+.stgdiv4:hover .stgimg3{
+    animation: animate2 2s;
+}
+.stgdiv4:hover .nomstg:after{
+    width: 240px;
+}
+*/
+@keyframes animate2 {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
 @keyframes animate{
     0%{
         transform: scale(1.3);
@@ -1650,7 +1956,16 @@ label #cancel{
               transition: 0.3s;
               }
      
-    
+              .stg:after{
+                content: "";
+                position: absolute;
+                background-color: rgb(218, 216, 216);
+                height: 2px;
+                width: 0;
+                margin-top: 30px;
+                margin-left: -50px;
+                transition: 0.3s;
+                }
     .livres{
         margin-left: 40px;
         
@@ -2161,4 +2476,22 @@ label #cancel{
     padding-right: 40px;
     padding-left: 40px;
 }
+.picintro{
+    
+    width: 225px;
+}
+
+.stage2 {
+    margin-left: 10px;
+}
+ .livrestg{
+     left: 140px;
+ }
+ .dmndstg{
+     left: 70px;
+ }
+ .nomstg{
+     right: 70px;
+     font-size: 14px;
+ }
 }

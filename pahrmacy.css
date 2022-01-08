@@ -21,6 +21,12 @@ html {
       color: white;
       
   }
+  .picintro{
+    height:50px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
   nav .openMenu{
       font-size: 23px;
       margin-top: 7px;
@@ -408,5 +414,9 @@ footer a{
 }
 .copyinfo{
     margin-top: 10px;
+}
+.picintro{
+    width: 200px;
+    height: 35px;
 }
 }
