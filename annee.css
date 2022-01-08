@@ -1672,7 +1672,8 @@ margin-left: 100px;
     color: white;
     text-decoration: none;
     position: absolute;
-    right: 140px;
+    letter-spacing: 2px;
+    right: 180px;
    margin-top: 140px;
    font-size: 14px;
    font-family: 'Poppins',sans-serif;
@@ -1693,7 +1694,7 @@ margin-left: 100px;
     animation: animate2 2s;
 }
 .stgdiv1:hover .nomstg::after{
-    width:285px;
+    width:210px;
 }
 .img1stg{
     
@@ -2491,7 +2492,7 @@ margin-left: 100px;
      left: 70px;
  }
  .nomstg{
-     right: 60px;
-     font-size: 13px;
+     right: 110px;
+     
  }
 }
