@@ -1870,7 +1870,7 @@ margin-left: 100px;
     }
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:1200px) {
     .loading{
         font-size: 20px;
         margin-right: -20px;
